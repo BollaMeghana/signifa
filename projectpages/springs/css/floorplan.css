@@ -1,0 +1,24 @@
+.floor-plan{
+   padding: 50px 0;
+   background: #DFDEDE;
+}
+.floor-plan h1{
+   font-size: 40px;
+   font-family: Alkatra;
+}
+.floor-plan img{
+	padding:50px 100px;
+}
+@media only screen and (max-width: 600px){
+   .floor-plan{
+   padding: 30px;
+}
+   .floor-plan img{
+   	width: 100%;
+      padding: 0;
+      margin: 0;
+   }
+   .floor-plan h1{
+   font-size: 25px;
+}
+}

@@ -1,0 +1,12 @@
+body{
+    background: linear-gradient(90deg, #0e3953 0%, #0e3953 30%,#03a9f5 30%, #03a9f5 100%);
+}
+body h1{
+    
+    padding: 55px;
+    color: #03a9f5;
+    justify-content: center;
+}
+body span{
+    color: #0e3953;
+}

@@ -1,0 +1,24 @@
+.master-plan .one{
+   text-align: center;
+   transition: 1s;
+}
+.master-plan p{
+	display: inline;
+	color: ;
+	padding: 30px;
+	font-size: 18px;
+	font-family: Oswald;
+	font-weight: 650;
+	cursor: pointer;
+}
+.master-plan .one:hover{
+    transform: scale(1.05);
+}
+
+
+@media only screen and (max-width: 600px){
+.master-plan .one{
+	display: none;
+
+}
+}

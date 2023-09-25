@@ -1,0 +1,94 @@
+.specifications{
+	padding: 10px 12%;
+	text-align: center;
+	font-size: 18px;
+	background: #ECECEC;
+}
+.specifications h1{
+	font-size: 40px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	padding: 50px 0 0 0;
+
+}
+.accordion{
+	margin: 50px auto;
+	width: 100%;
+	display: flex;
+	color: white;
+}
+.accordion li{
+	list-style: none;
+	width: 100%;
+	padding: 5px;
+
+}
+.accordion li label{
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+	font-weight: 600;
+	font-family: Segoe UI;
+	background:#019196;
+	margin-bottom: 2px;
+	cursor: pointer;
+	position: relative;
+	background: #019196;
+	transition: 0.5s;
+}
+
+.accordion li label:hover{
+	background: #5AA320;
+
+}
+input[type="radio"]{
+	display: none;
+}
+.accordion .content{
+	background: #019196;
+	text-align: center;
+	font-family:Segoe UI;
+	font-weight: 400;
+	font-size: 14px;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-heiht 0.5s, padding 0.5s;
+}
+
+.accordion input[type="radio"]:checked + label {
+	background: #5AA320;
+}
+.accordion input[type="radio"]:checked + label + .content{
+	max-height: 600px;
+	padding: 10px 20px;
+	background:#5AA320;
+}
+
+@media only screen and (max-width: 600px){
+.specifications{
+	padding: 10px 12%;
+	text-align: center;
+	font-size: 14px;
+	background: #b9b9b9;
+}
+.specifications h1{
+	font-size: 25px;
+	padding: 30px 0 30px 0;
+
+	
+}
+.accordion{
+	margin: 0px;
+	width: 100%;
+	flex-direction: column;
+}
+.accordion li{
+	list-style: none;
+	width: 100%;
+	padding: 5px;
+
+}
+.accordion li label{
+	flex-direction: column;
+	padding: 20px;
+}
+}

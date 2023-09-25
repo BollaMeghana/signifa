@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+/**/
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&amp;display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&amp;family=Oswald:wght@300&amp;display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&amp;display=swap');
+
+/**/
+nav a img{
+	width: 100%;
+	height: auto;
+}
+img{
+	width: 100%;
+	height: auto;
+}
+h1{
+	text-align: center;
+	font-size: 40px;
+    /* font-family: 'Poppins', sans-serif !important; */
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+	padding: 20px 0;
+	text-transform: uppercase;
+    color:  #5AA320;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+  }
+  
+  .sticky + .content  {
+	padding-top: 102px;
+  }

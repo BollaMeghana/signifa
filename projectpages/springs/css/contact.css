@@ -1,0 +1,130 @@
+.contact{
+	background: #E8DEDE;
+	
+}
+.contact-container{
+	display: flex;
+}
+/*.contact h1{*/
+/*	margin: 50px 0;*/
+
+/*}*/
+.contact-container .left{
+	width: 100%;
+	text-align: center;
+}
+.contact-container .right{
+	width: 100%;
+	text-align: center;
+	line-height: 1.5;
+}
+.contact-container .right p{
+	line-height: 1.5;
+	/* color: #594127; */
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: black;
+}
+form input, form textarea{
+	width: 100%;
+	padding:10px;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid black;
+	max-width: 500px;
+	margin-bottom: 12px;
+	background: transparent;
+	font-family:Segoe UI;
+}
+form button{
+	width: 100%;
+	max-width: 500px;
+	margin-top: 10px;
+	margin-bottom:20px;
+	font-size: 18px;
+	color: white;
+	background:#5AA320;
+	border-bottom: none;
+	padding: 15px;
+	font-family: Segoe UI;
+	border: none;
+	outline: none;
+
+   }
+
+.social{
+	padding: 100px;
+	font-size: 30px;
+	font-family: Segoe UI;
+}
+.social p{
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 20px 0;
+}
+.fa-brands{
+	cursor: pointer;
+}
+.footer{
+	width: 100%;
+	background: #3a6f3b;
+	text-align: center;
+	color: #fff;
+	padding: 30px;
+	font-family: Segoe UI;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+@media only screen and (max-width: 1100px){
+	.contact-container{
+		flex-direction: column;
+	}
+	.contact h1{
+	/* margin: 50px 0; */
+	margin:20px 0px;
+	font-size: 25px;
+}
+.social{
+	/* padding: 0px; */
+	padding: 80px 0px 80px 0px ;
+}
+.footer{
+	font-size: 16px;
+	font-weight: 400;
+}
+	form{
+		max-width: 80%;
+        margin:auto;
+	}
+}
+
+
+
+
+
+
+@media only screen and (max-width: 600px){
+	.contact-container{
+		flex-direction: column;
+	}
+	.contact h1{
+	/* margin: 50px 0; */
+	margin:20px 0px;
+	font-size: 25px;
+}
+.social{
+	/* padding: 0px; */
+	padding: 80px 0px 80px 0px ;
+}
+.footer{
+	font-size: 16px;
+	font-weight: 400;
+}
+	form{
+		max-width: 80%;
+        margin:auto;
+	}
+}
+
+

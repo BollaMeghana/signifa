@@ -1,0 +1,57 @@
+.gallery-section{
+    padding: 20px;
+    margin: 30px;
+    margin-right: 180px;
+    margin-left: 180px;
+
+    
+}
+
+
+.row{
+    display: flex;
+    
+}
+.card{
+   padding: 20px;
+   border-radius: 10px;
+   cursor: pointer;
+}
+
+
+@media only screen and (max-width: 1300px){
+    .gallery-section{
+    padding: 20px;
+    margin: 30px;
+    margin-right: 50px;
+    margin-left: 50px;
+
+    
+}
+}
+@media only screen and (max-width: 900px){
+    .gallery-section{
+    padding: 50px;
+    margin: 0;
+}
+.gallery-container1.card{
+    margin: 0;
+    width: 100%;
+}
+
+}
+@media only screen and (max-width: 700px){
+ .gallery-section .gallery-container1 .row{
+   flex-direction: column;
+ }
+ .gallery-section h1{
+    font-size: 25px;
+ }
+ .gallery-section{
+    padding: 0px;
+    margin: 0px;
+ }
+ .card{
+    padding-top: 0px;
+ }
+}
